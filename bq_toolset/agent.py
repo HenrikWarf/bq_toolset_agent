@@ -12,6 +12,7 @@ import google.auth
 # Using APPLICATION_DEFAULT for local development with gcloud auth
 #CREDENTIALS_TYPE = "APPLICATION_DEFAULT"
 CREDENTIALS_TYPE = AuthCredentialTypes.SERVICE_ACCOUNT
+credentials = None
 if CREDENTIALS_TYPE == AuthCredentialTypes.SERVICE_ACCOUNT:
   # Initialize the tools to use the credentials in the service account key.
   # If this flow is enabled, make sure to replace the file path with your own
