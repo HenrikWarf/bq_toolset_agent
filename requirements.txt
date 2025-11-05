@@ -1,0 +1,28 @@
+# Google Agent Development Kit core
+google-generativeai>=0.3.0
+google-cloud-aiplatform>=1.38.0
+google-cloud-core>=2.3.0
+google-adk
+
+# LangChain integration (if using)
+langchain>=0.1.0
+langchain-google-genai>=0.0.5
+
+# Additional useful libraries for agent development
+requests>=2.31.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+typing-extensions>=4.0.0
+
+# For async operations
+aiohttp>=3.8.0
+asyncio-mqtt>=0.11.0
+
+# For data handling
+pandas>=2.0.0
+numpy>=1.24.0
+
+# For API interactions
+google-auth>=2.23.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0

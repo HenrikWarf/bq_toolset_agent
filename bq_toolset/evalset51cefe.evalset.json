@@ -1,0 +1,934 @@
+{
+  "eval_set_id": "evalset51cefe",
+  "name": "evalset51cefe",
+  "description": null,
+  "eval_cases": [
+    {
+      "eval_id": "case89957c",
+      "conversation": [
+        {
+          "invocation_id": "e-6b716102-48bb-4002-80c8-f04cae1b03f2",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "HEllo! "
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "Hello! I am a data science agent with access to several BigQuery tools. I can help you with questions about BigQuery data and models, and execute SQL queries. How can I help you today?\n"
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1756899949.800871
+        },
+        {
+          "invocation_id": "e-f0cbba4b-f218-404b-b306-11fee754cdcf",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "What data can I access ? "
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": "CowDAcu98PB3HCiz-6c0U8MOpRLmMpJgdd_u-MIW8JkTfmImwp8BizYcoIkg2c0d3gELCypEqU7IzvmBXDjDbOfSIrrqeQhy7YhPaujsZOEtQMUAAyldMPrYLnuepC8ih8J2PbvcYaHedV6J4g8fNsXURBU--kVEh0P2jYuYbxs5r-gsR3ODjnuOz2rOJCs38ZhYX9bw-MSfJ1sc3EIVXMWjcfDG8-eJHtJ8Zy4eu8KUbCtZ44T9mLEGpeG2oGLJTXirHcK_bkIS7hnU5CGkbvkgrqkw8_sDkQ0pICI8eorZg17hoKLI4NHVPBuCeSNQRqHH0EiStWWTFhEGNVX3BDru7o6UhKVNIja6ubWgTvtP3_WZ9Fnk5jFrTmIueTN3X5uAqIzjYhgK636z11B6CEKsOiEwGrKE_OQIJqd9Kj80xRnvie9zuBuvXWfWeIPJeRuBHskgeMWKwn0MskDTr1L9FS2z1sYKg-3vm1OzWy3YnyVuQUGQJaRDYKysG5qZM7jCfbw9DYM3qUF7QXp2",
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "I can help you explore BigQuery datasets and tables. To start, please tell me which Google Cloud project ID you are interested in. If you don't specify a project, I can only access public datasets."
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1756899963.758539
+        },
+        {
+          "invocation_id": "e-0aa8b039-20f5-4a07-92ae-812953b345d3",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "ml-developer-project-fe07"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": "CpMDAcu98PAUdgefpQaavvF0hKPvitRrZDBKBhuRE5OnmuK0hgwWN5dhkPFaver7PGZ2sLHGar6ThusXWnjyigRHN9w2HJUkU_TVU8kPZ5U-3mL6l0b3wEIJMEZ3MiO-LK-rNqrek84uHNJgF-Kje5WBJPtGpaM0-djsOI0-PGYTdFe2xITQRHTaMuUESf3H_a9LIYc1r_s85rAq3tygJ91gSSsBcGThsNyuF9Tzj_brIAVkOEZ2Ads-lLxkQkfl_Nyl5xZHIXXyMsBxFisemU4YOC6QUZzgA8tCWO5b_8XoNELrtOk0GKUmoEP7Ug7YEqBSuXp6N4SOjlRcWi7hI-i4x9702XdjdBO0D5zvLiDQs6B1Q3onwFoT6lahh09HhKpuBX6htG06AxqJUz59BQ6eABCMxB0wpfa26r_-0Gqfs1LuoehtWHaUX3dhA3ytPMI5beLbtzKDt1BpvH31t2_4rVJMVfVIaLW-XxXIZBJ-XFhcYQQ0fpmHLPDqxqwVtQc5ZH9r6Nre0SHym3GKRTduJM23xg==",
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "In the project `ml-developer-project-fe07`, you can access the following datasets:\n* `customer_data_retail`\n* `online_retail`\n* `operation_penguin`\n* `operations_penguin_new`\n* `reviews`\n* `test_dataset`"
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-e2b02c21-37b4-483f-85de-ebb1b9d7167d",
+                "args": {
+                  "project_id": "ml-developer-project-fe07"
+                },
+                "name": "list_dataset_ids"
+              }
+            ],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1756899983.696684
+        },
+        {
+          "invocation_id": "e-7d6d4cb9-4d8f-4fd2-85a5-7103724cdfe2",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "Lets look closer at customer data retail"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": "CoYGAcu98PCvsfjRCIuVNtp8oNFcvQtMPaG2k1ERZ-9q5S06SxRHBz1SI_rPJCd9sjUb0eCb4OdegCV1m9sCx3EGpVbKqExTD3iLxx9gyDJDkOmbQpmU3YdjuucjIFrIixajENAXso7fCLOiQs-Xv7ET1cEzyZ8k-NQt6-xrTN1L0RRzZO1X8TBfJ45csMbVbX9e_QCmxJvCtLzFudPYu6TfpspfqRzCAn4icLkmMgdM8ILEhvlHgjCWbBlvuyBAVd0jL0I0a2SGP3r9RKV1-_khvAKhLu6Gy3x6F0cqKgu0Ne3FoNj-wqfpK-y39IxzCbpfpVhXoD2_Q_xgK7AfMibCMX16uUCi7GyJ7L6CYutOBWQy3RCP9B18HeD9n7ADpeCwm6Wan7TJHsKGqgm5o6jznZyPNA9zydWteByssx__oGtwIMLvSJ0iugp2haYhoygEd3D2ROZ0hBIK3sEOaZ4pyoxuDKjIBzOfiwXaKcTqzjk-41ZlGqaC8mT0Nr_ouez8qZ4VPDcF30S2HiFa2DAzFusjE0wrJtNh9ExjTPDlWGXOxwOT2yllnULImlFexwN5IO63W6feB9jiaYEVln9KY5S-078m76M0NcmOEbqWdWRU1WWhTkdpSS7fOFySnvR5ultE9dwe8991pqXfnpq7QrBZR4l9ziKQQBBngVPjqvELmA3EpoNIxfXEE9huHYBm0H1EylR9GfW7daBRX5rxRK6Z03tKeiuIeVg3u2m9csRpsu-qvzrMOrXv74oSs9_836gj_T7jFDYNLWL_bfNvFdDt_BXee3_T5pFikHeoawS-DR0H9RmOM-6pFnk0dGWsM2OBDKaLpmBFXd-lOicRmTw8nhocg9ZuB2vxhOaIjFLNBbkmip5nuQjknHsTgFJWGvcgOAeHFFlXgIfw4BtsgPQD55M5WnuE8nN3NDA25sVQI9kJ-MReNhllaW4QkxBZEBuYCl8UUtD6G71Z4OLS2sOuKLY-9rVce2UHAukEfK7Esl7r-vnD6loGHcRtDLcXEiQDQwfK",
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "You are looking at the `customer_data_retail` dataset. Here's some information about it:\n\n*   **Project ID**: `ml-developer-project-fe07`\n*   **Dataset ID**: `customer_data_retail`\n*   **Location**: US\n*   **Created**: 1744199871883 (timestamp)\n*   **Last Modified**: 1744199871883 (timestamp)\n\nWould you like to see what tables are available in this dataset?"
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-762d071f-bb40-48fd-af44-86fc1b43f35f",
+                "args": {
+                  "dataset_id": "customer_data_retail",
+                  "project_id": "ml-developer-project-fe07"
+                },
+                "name": "get_dataset_info"
+              }
+            ],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1756900005.33062
+        },
+        {
+          "invocation_id": "e-32bc91bb-d205-498f-8903-e05522b65a83",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "Yes"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": "CtcCAcu98PB0BNQAImJq5WwQs4RfyqSSquYAo218JjtAMuJuJPw6VI97IpBFWiIp37yPzbHcj7mq1muX8cCqXwd8Qp051bel27x_8ebH_DqDorRL-_C6h_xKNEoFcG_EUPYlIFmtP2u2qcuT3qws3hOvxlxh_4wq4om7gEjuu-iuTPY1maxOYoFCd0SKd9rKs917ci9tt_WrMt5ejO-yb1E_v-DGrTgsWqzdqM-PPi5scKbou3nmTVQxrc3R1ZWvU28LTjRifLjH5MrdB93KknKqUQWhZFCN9ikMBw8EdZN5i5VyD2Og24sYaVfGz2ukx09HCQNYpV-o9VKOGe44GZTW6cMPOta_tk5TDgPszr3IJn1Cshi3lnfEX_jyOGkYPBgjacrKxeXAk25sgbrRwuds7-Ke3jNOl1CQsAtHPJUDoRNxKoXeQ1ae8vho7ZuJGidVIfLLHFvVdA==",
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "The `customer_data_retail` dataset contains the following tables:\n\n*   `crm_events`\n*   `customers`\n*   `products`\n*   `quality_customer_table_01`\n*   `web_events`\n\nWould you like to explore any of these tables further?"
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-9cf7c830-143b-4289-a611-629a1c227980",
+                "args": {
+                  "dataset_id": "customer_data_retail",
+                  "project_id": "ml-developer-project-fe07"
+                },
+                "name": "list_table_ids"
+              }
+            ],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1756900017.728239
+        },
+        {
+          "invocation_id": "e-3cab5821-198f-4417-8ee7-ac9db28fa63b",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "Yeah. Customers"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": "CpgDAcu98PAkF5rGHgi120ezWtAisB0XdFb7hoydJyrKj6YoLXrlQhPX4nF_Q3xLDRjeWdBRl_31y6x1ivKI2XbuueHmK5XGrxnjIlEwfVW0hu1M5QWuZfJQX9PXL3nOW6m_ljuOPvS7Gkk_XfXxI3RprHJHNHWqkAM8euWG3vYvqWYg-IxRCdGzp16qp4v0SCvezgjopKCbJY4gmcqssbRNbkFaiNqB1N63A3TMV25DOInB3cKgnP4GRQ4NWdPSe29umzXH7TMiEm6cuH4GTR9yf3pPuGzsWdVO1lAmA1jb7e5MJ1Q7t7ZgUF8NTOnz8l6PAPEet_TR6T9AIPLEzCou6Jqqf5xcmuVVCrjHVW0Ppk3M6U6zFZ4_p-nd7Navt522yh1HpUIXCWUDz1yNopsBTY7OhzMTsWyBj_IWAaiPGuwUdBXI2yPY8rKpHUVKCxw1esca_uYdX50nw_hulhAokp1uhv_TzHH4jOdLzxNwTZyEPLi-iZ5PPxEzUPmlMj5wc1Xd7tgGJEnFlfOPJG3GEnX5uSk2i2T7",
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "The `customers` table in the `customer_data_retail` dataset contains **5000 rows**.\n\nHere is the schema of the `customers` table:\n\n*   **`customer_id`** (STRING, NULLABLE): A unique identifier assigned to each customer.\n*   **`age`** (INTEGER, NULLABLE): The age of the customer in years.\n*   **`gender`** (STRING, NULLABLE): The self-reported or inferred gender of the customer.\n*   **`location`** (STRING, NULLABLE): The geographical location of the customer.\n*   **`registration_date`** (DATE, NULLABLE): The date when the customer registered their account.\n*   **`acquisition_source`** (STRING, NULLABLE): The channel or method through which the customer was acquired.\n*   **`first_purchase_date`** (TIMESTAMP, NULLABLE): The exact date and time of the customer's very first purchase.\n*   **`date_of_last_purchase`** (TIMESTAMP, NULLABLE): The exact date and time of the customer's most recent purchase.\n*   **`total_number_of_orders`** (INTEGER, NULLABLE): The cumulative count of all orders placed by the customer.\n*   **`average_order_value`** (FLOAT, NULLABLE): The average monetary value of a customer's orders.\n*   **`total_spent_ltv`** (FLOAT, NULLABLE): The total monetary value a customer has spent over their entire relationship with the business (Lifetime Value).\n*   **`purchase_frequency`** (STRING, NULLABLE): A qualitative or categorical representation of how often a customer makes purchases.\n*   **`average_items_per_order`** (FLOAT, NULLABLE): The average number of distinct items included in a customer's orders.\n*   **`primary_shopping_channel`** (STRING, NULLABLE): The customer's most frequently used channel for making purchases.\n*   **`discount_affinity`** (STRING, NULLABLE): An indicator of a customer's propensity to use discounts or participate in promotions.\n*   **`preferred_categories`** (STRING, NULLABLE): A comma-separated list or a single dominant category representing the types of products or services the customer most frequently purchases or shows interest in.\n*   **`style_preference`** (STRING, NULLABLE): A qualitative description of the customer's general style or aesthetic preference.\n*   **`size_general`** (STRING, NULLABLE): The customer's general clothing size.\n*   **`shoe_size`** (STRING, NULLABLE): The customer's shoe size.\n*   **`return_rate_percent`** (FLOAT, NULLABLE): The percentage of purchased items or order value that a customer has returned.\n\nIs there anything specific you'd like to know or analyze from this table? For example, we could look at the distribution of `gender` or `location`, or perhaps the average `total_spent_ltv`."
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-be38cec9-6568-4077-962c-2717fbf09457",
+                "args": {
+                  "dataset_id": "customer_data_retail",
+                  "table_id": "customers",
+                  "project_id": "ml-developer-project-fe07"
+                },
+                "name": "get_table_info"
+              }
+            ],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1756900033.30906
+        },
+        {
+          "invocation_id": "e-bd2d7a17-5da4-4fb5-ab2f-670e9c1d8244",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "Can you tell me what the more common style preference is"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": "CosCAcu98PClwJ6E57kKecgPxRquB21OhpLk0y5AzgmMqo7Mi7TYDvCnSEd2JZG5k0CuDoY8tTHFZKjxUaIsiKu62X6RGqzCx_5LtrhJTmXXjNzrmgzEGN6g5RU9_we1bv_ndbs6JktkHywTViKEfUFO36uCIlICr2RZ8j1x-4R824txyiwQ4js-dBqCQOSe1QtDtxtrMq_8cx3DW77GMgsZGk1guzTRbDQJcvWTSVWc7V-dBEnufz6CrCnTlw2Q622e9wE5T_Y5cAkFqXlVyPdbIWr17QgkS7fxv_5sH_S6-Qx_PzSV_Vb_uZS_15lYDr5NWXFq_1BlQpFq2pmHNtxR3DDQcvITKnH7h-wI",
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "The most common style preference in the `customers` table is **Minimalist**, with 741 customers."
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-eb5bde7e-e65a-4d7a-b2ba-450f636be498",
+                "args": {
+                  "project_id": "ml-developer-project-fe07",
+                  "query": "SELECT style_preference, COUNT(*) AS count FROM `ml-developer-project-fe07.customer_data_retail.customers` GROUP BY style_preference ORDER BY count DESC LIMIT 1"
+                },
+                "name": "execute_sql"
+              }
+            ],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1756900067.759413
+        },
+        {
+          "invocation_id": "e-1853e645-3a09-4409-ae65-bbc95485e982",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "can you show me the distribution of that feature"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": "CuwBAcu98PC2phWMUmcrrI3DkDQBUNvHL4iO8dqMv0fwJWvS1iU2f8VEjUr0_VBk_t0Z7OoYYt0KzuzKQFMpER7-NWCrrcDg-CIxWqv4hRcL9KDyS8eZNdntsK5NIdN3Uv9vuPy4SlsX21XJgtRk0d0WktNRalC1fbQS3SU2kk0fdzpklGScVo0cO3UDFBRuFI1hvOL9cY1r37SJbe0zwFlzg2ojpJ-UGd-PPnT1NTTRw1_TFRO5IQDNUuMqm-wE0DndmcrfzS_pMYfDmDcYJoHWdmheQAX7NYLUEhKnioK7S2SMREs7Gr_Uqw3wU_c=",
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "Here is the distribution of `style_preference`:\n\n*   **Minimalist**: 741\n*   **Casual**: 740\n*   **Bohemian**: 739\n*   **Formal**: 706\n*   **Vintage**: 696\n*   **Trendy**: 692\n*   **Sporty**: 686"
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-f27dc69f-67dc-4306-a3e9-3f1e3b281240",
+                "args": {
+                  "query": "SELECT style_preference, COUNT(*) AS count FROM `ml-developer-project-fe07.customer_data_retail.customers` GROUP BY style_preference ORDER BY count DESC",
+                  "project_id": "ml-developer-project-fe07"
+                },
+                "name": "execute_sql"
+              }
+            ],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1756900094.361958
+        },
+        {
+          "invocation_id": "e-9a20f3a3-9270-4aff-9dd6-c4767df832c0",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "What is the average total order per customers"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": "CssDAcu98PCgzLKRvECKiTjBNmmY14ZyDpD7gHkQavQpj-PgtM8CIeO6BUT52jlls9JRscKcEOI__3I4_d8yk7X6Co6-CeyG0RtIAft-e5yANtMfaopSS0369Xg32jyDQcUi_2e3qFVoW47c9fT1qZe9lmti5igIx4QrYWgbxyMWQfArNLy7qGYEak1lLf3Xr3rfAu9Ck5zdt9eVKuo4vdvFLC385bQpNZZZ0ono5BgWX2Ha5B-QW8XWgAGtooBO77QMCHnkD_jhIQqYDfJ7Y322WwnjmOiZBgycALneVW_XBaggl6os3eL2FNny7cDvnvdxEcI4lf1-7JkdWzkBR4uBRrV1MagcDSF3W3aR7atQGTLcj1OyAIbd9cpxTGPJ43DRvMIds--NzPTlmvLn-TnwNLqYEi0t24GKddPb9CF-bGDI4TQwSSLnuoYBPw-UBw47jF2_1_BkSxVOU-POvw2ZwCZp7lg1sQefsXvrFlRSYB4RR0EPDYe8CK7sOR4artffGZ3FM4dXXOvGlGo5Oz9nYPP124O1-mcoXJPrxzSO5_wxxjGRIdlFMRL9A9zKT4WlT6QsWgYsSg8MNu46RYE08mGd0fke8nIuBEKa",
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "The average total amount spent per customer (Lifetime Value) is approximately **564.32**."
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-b73e4543-0b92-4457-837c-29663abb3b7b",
+                "args": {
+                  "query": "SELECT AVG(total_spent_ltv) AS average_total_order_value FROM `ml-developer-project-fe07.customer_data_retail.customers`",
+                  "project_id": "ml-developer-project-fe07"
+                },
+                "name": "execute_sql"
+              }
+            ],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1756900131.770961
+        },
+        {
+          "invocation_id": "e-aae93304-fd04-441c-9ce5-1b8a91d808c6",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "WHat about number of orders"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": "CukBAcu98PAbSdSLut_GIoRLfm0D6cOufUUyBqv_V4dqLoWg9vfvHTXv5NS4WL8xPaSnhpt98b37Vqk4-IFgq_hiLpfOvngdkDGfYc_-Ws-4_S5oWAALEpXsen3rxuhwfUWs6gGfBBuYr1MWXXbAihW7scUcr4kcFLhxUKDcryS2R1xI43EX02msqCISCwMcJ4v9Gkco4KF1gs3_yqHOwvphcQto8F5NR4EcdevHeD-3rOoMFg4HWHTHLT6ZQKbnxb_L5tgO_ZYXqz1rFWy89VYj1qyVZ7GAODGhIIKhStFq5f-S5V_rYQQ41qM=",
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "The average number of orders per customer is approximately **8.62**."
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-c99e16f8-3cfc-42f0-a3ff-3d7ade7c13eb",
+                "args": {
+                  "project_id": "ml-developer-project-fe07",
+                  "query": "SELECT AVG(total_number_of_orders) AS average_number_of_orders FROM `ml-developer-project-fe07.customer_data_retail.customers`"
+                },
+                "name": "execute_sql"
+              }
+            ],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1756900153.212334
+        },
+        {
+          "invocation_id": "e-d963718e-4c47-45fd-808d-115d6741a2bc",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "what is the median ?"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": "CuEDAcu98PBnWFG6uUyokTJbHEwZzsd-iPViJ4FDTN2fTcHzC5UDYq5NA1HVia2DroXPQtIDAy6S3XZPjzVr-t5gtugTPrvmRdouGA4lEUauFOPMx02VJXm1dtoosz51oJg76FTzB5ytucPvbElUqsHqHwg81SzdEG1gqamqsnOQmCAKgwDi6xbeh6ODxYvVE7lWC_mV-P_ajhDGcguhRNeC4JUxL4aQis4cAjW60dGWP-CCSNdvW032pw2K35Jsxm8EZstemxsV9RXvr4AbfA2Kb-WFo-gU1oD-45CrUEKzave-0CmHxG6HHDyTsmLfrhpmrTRZUkD7ra3g_39VUW6J-Bw_sc33oAKZzUqPNS80T0bky47mpQ26d4q2gboCaziLIHnl7ccR_Prgq0K4jUtL3yaadCv6uV4beFssMipdFm5urpZLw2zNfypbTxXD0Dd_L0E3YJC3Ka9gLBxKQyDdHz0Hrc6RQJ3sDRICLPYzATuZQml99nwCwWlGZ-MC4PdCSL0IuFyushwiKHNt8unACgEjQdu2y430HKl8gYjpzZqXDOQXgaP69sMjSra7Ku1W_ewjg1o5cD7_A_Ki7VhYiztPXjxt41tDuon49-JuEcHDwgma_8ZX74MAY9yp5IPcjw==",
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "Could you please specify for which feature you'd like to know the median? For example, are you interested in the median `total_number_of_orders`, `total_spent_ltv`, or another column?"
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1756900172.499315
+        },
+        {
+          "invocation_id": "e-a7e5fd5b-956b-451a-a2f5-a33e2493b250",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "total number of orders"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": "CtcBAcu98PBqhXsCD9qantm-4pvULiD5uqqsw8c8WqTMYVukL7bgJ_9XjZzybTf80czAe08GeJPQ9ID4Y-Ts6T7zmqMLMFyXCx6yNbhYzmRW2a561-vCks1y9G-8qUri2-4D5DD8p6FV_hviEtl9jEIXNEuRtYbe5dxhWfSn-4vVwkXvnp4nNxKMN53wZi3U0Hg9yQx64oK0rf4Tsip2yl-BCZXbDHdhms4xJxIdQRB3_1StXyJwR5Ii9PpDK_XnO2-l7skN2iQMexFg8WTTGqmgMPeYWPzuibM=",
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "The median of the total number of orders per customer is **7**."
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-5b0bcbef-ed3d-4fcd-8ac0-5d3561fbc751",
+                "args": {
+                  "project_id": "ml-developer-project-fe07",
+                  "query": "SELECT PERCENTILE_DISC(total_number_of_orders, 0.5) OVER() AS median_total_orders FROM `ml-developer-project-fe07.customer_data_retail.customers` LIMIT 1"
+                },
+                "name": "execute_sql"
+              }
+            ],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1756900189.819733
+        },
+        {
+          "invocation_id": "e-9652473c-c3c0-4103-a66f-18fb44359c46",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "What are some good questions to ask around this customer table"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": "CsUTAcu98PAQ4NYpUomKAcUtsJqsSCNrs68oVMvaNYGBu-fAaMgNH8NoD_zW5_iQjPECGtuTUdv5PEU09aUbCKk033q3koBKuSEB4iWDdrB6tKJtFf2G0x9OZlPtRrSeUogFEa1PC75awoV_HQfUKU7fT17Gv6I4che5W_IR5ioQ6DZMJXB50v9g1H5iR6ytsQXakF7XrwA6Rv1xSyvsDs2nzm8Pp8Whkr6l7eCc7M8kil6NRRi6t18b6fvd8RW2NU9moBT4qy8NenL0fwwWvIzMCZEWNXXxk5v0C-UTibeDa43csm3z5E9ME7AX17rfASx3BCZD6ntliu-v-grGwgDRNXaCUotTMwVyRUlRwoyPJZm-6kyxdJTcP5nV9MY9PJFbdgG30-h8EDJJwmE6Z5FeErD2_OFtOXBV1Fzh_pCm2S5L8QvUgh5m4PJbcSHtEwTxlcr8tz8dJ1sb8JcA6O3gvIo6jNmhw0dfxuwBKBX9bDGjm-vfjg_yx_5trfRfef5iuvmx2MN2LVINljQQQm_aFoKeIimzp24GrAek1RsauDb5MEzIXd1VTOJt6YamtEl7_N0Ror9W9SK-USX9VzjUNfHgE40n9ZuY4K3oKFvStNjnLyLscXR-2piF5q0c7WqSUX63BZH4gLlb-Xx3Q3lzS0Mpw98Tpr2pPmInzeoWkX7ukSmjWfHvr30neJWP28j77OdpSiBicDLDfAY6xK3ZmVqjEH98D2UEzW67uRSQ1AX_4O756U2sF6cXdRtIsPqG8rR2XjQINnhJWSK1jZemvlMrwceLhhBnU9bN0XEH5Yz9-ObcPqAasAPY0FZkL-3OOVLIoAYvACf2pkln_bVur5ZfvAcTCbJAchCrCxbbPIcoUD9Vqc2zACP9sWvpJDX_c3qhim1x2tekJcWIXpREXVhm2EKahuYcy2MJYuV--XHetIGgyWjGmgEvjvNkWH5rXUUR7JVPBQINWKLGIL6FypmVwmvr_3m-X0htUuP_L7O8E18LjtcD7GG_tVXTaZ3NyH0weLIqtJVf9vhK5nMnSr52X7P4yeLH7-JHA0K7Uc63sYQadrf17MUKT2gl4nLutkJowfiFPzmlAGeXZo2XJ89Nqql5fuSaGIUsPyQ4fyTvTHgODXugc5yNlXQUlwVSTiZGtPMEjOwT9BphiIa-1HBZLElzRooEkH52F4wClg2Nr8KnTUsgj8l_9Fr__PhS6SfliFS7vKP0-T3APQuXJqeC6LSXRyLt4fyZmkmscMSkq-aoi2ioc2oS1yjPo7L5kOquU6RmbbFtz-RrBj6C3Cteo3TJEVr1jZzuX0xxkBBFMAdjZffjYb_SS4n3mqn_k_fbBYJzLaYhTh3ol7dQ0FDACn0x9WEd05zEPRTda0uXYfVY_JGdeGkW9yiNGJAsSHal5wlgLIzBskR3QyhPt7PGX_5J6C2VvBxu-aPep1DEZWFjwecGjw-RXPU4ndwqQDH9MEv2VgySTFWL3pw3riKp7x1_h-TOZfVXG6w3b8O_7mCuwIGyKYAlYexB0g49kp15G_Iyd4CuRGQBwJll6CfHEcgunttaYQbfbmk6U5t-s_WUB4F7OAA23yqF5v1IqXpc9-drxF4OlaJtlqMv8kDsAqdSPBuFYrWOa18bBZFzXU0-UH2pJZL8h3AX1zA1bXW5DHBioDXJqzK_QeqRUcZNprr-htcJYna2_LdToWnE4WKVpvD9q76HXb_T7Mr-ax-B9Rr8FuC5UrULtHFQf0aDxVE3RmeWC_arj4Wj9LutCaK5Y4uctWROZfQfJRMPhjVqbC_FY62JjdaVAT-FUcGCdFDOQ3g72Oa7Q9hBNr5vNz_SU5deUqmTwexq_PgWdQuQV9EcfiElXaDnH2uycBo2fXkoEklwSzqdiQnOtM_iN-vVbmiYwamqAbk0y6WGJul9py-K6T8-h75lwcFAQh8twAJw1Myq9dObEpU2uCoLVr3yDCqg8Bn8zLgQETnuA_re2BA1-o7tN_3fbB7v0SO-UVI2_uNmmoerzqmHRxbMhkBnNGTfN7-TKH7G19X7iERCnRKoJuReZ4XAyveLJpFl2V0lwcJLzAYRxqjVy3lIgppNc94_ugBiRu_J-FLYDsmgMp3CvlU8_6xVh4cALbhqCdWPggGEpGxvhKsNlqJwLsZVQmRyTtAITB3axXe0a8F5_N7nsW2srvo9VS98OVPzA_Zr0urEGdd9Xr3Z80dcsmdpd355poMTfjKIPTcQ4NRM7IPg2UFp7jntw9pdqz9PL8e34FjlNhS2Mf6nxKfYEI4fUZQ82aBX3uzLoEzxYZrl4Og0cMnYWqKXGDkEIjvb7GoiTMIUjAvPuPmGC_mYQMYBiZPO0mCagPcDKeHE7_5UrqKbjzUczj1GbKlMWhJn7fvW0SWUDl2vwMS_bTlKJwL3wr_aVJNel14X3Oa9iUUpIoC8IcSVqtLpfRcm3g5O7NsnvAWqezezb-smmfETvuwCPFfzsu4k4_wfY5ijbpUvIG9cyVZA4GRG1yEnjuNWxr5xPEpjmT2-XzoMj6q3DPe06ckQMTK54DPocIycSPSNrIf5KV7R9A7ijiSOd6MRJeyvTQ0fmaNNU55RubLRuzvqhtzLGJaMNHtd1jR4NVQ11EumWYTxOvA4OaX17BsdKGx09I9Yy50vin1Fe447jNJHAUT0bC92WQ3gnfl2ZQxNbW9KttcJgBGhkp_0XwLagVuyOIuK83TQfG6Goa2FtnFu55VyuBPYCJ7R35OrdNFy013Kct0PJmBVpgAOr34h7TJaQnKZeX8wh8UGFyEkB6VglX6ylPyQ5f13XqRfnok5yJfbJQkoTUanvGMllScUeacq0MOhDYdMK987f_fs_pWHMsMud6orYuigvdkOlw3L8uY_wcA1KvhqO9JZ2kfvmTUotdSOmuKDx7znafPUXX-O-o435593We0o5wIypDMrOm1OMpSqPk0Q63e0sVsM8k1Du0TrDGW2v9-eDOtgl7f__4CX9yu1bGCazUICCY4IxyCHW1ZYGzg4wuRtWjndMaIf0D0239-Pk-EFZVRlXvcHBd0zYToAOijXxpNdeBVQDufCmv8uhjYFKo2osNAuR4fN1-BrA8EPNbmZXXmR3W7cJpXPsMwyZsjFUh6kozjXuftU7SDZvweFECsHdiJP9MyGt2ygIUGWq_ePOgsBajTJVg036rYRYCv5k6pTnqO3EJDR5CBeE2x9xWbv2Lit_5OJaqWgQyFJXnOYTiAsh9KVI0n4kuCgeWWavDMP-xWX3EZ5I1c7mlWml_ByRctFHEN5M2x9GvaK2VJxZSVVoFVPkSCpVGt2qcxMeASYM3fXQYY=",
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "That's a great question! With this customer table, you can explore various aspects of your customer base. Here are some good questions you could ask:\n\n**1. Customer Demographics & Segmentation:**\n*   What is the age and gender distribution of our customers?\n*   Which locations have the most customers?\n*   Are there specific demographics that tend to spend more or order more frequently?\n\n**2. Spending Habits & Value:**\n*   Who are our top 10 customers by `total_spent_ltv` (total lifetime value)?\n*   What is the distribution of `average_order_value` among customers?\n*   How does `purchase_frequency` relate to the total amount a customer spends?\n*   What is the average `return_rate_percent`? Are there any segments with unusually high return rates?\n\n**3. Acquisition & Engagement:**\n*   Which `acquisition_source` brings in the most valuable customers or the most frequent purchasers?\n*   What is the typical time frame between a customer's `registration_date` and their `first_purchase_date`?\n*   How recently have customers made a purchase (using `date_of_last_purchase`)?\n\n**4. Preferences & Behavior:**\n*   What are the most popular `primary_shopping_channel`s?\n*   Do customers with a high `discount_affinity` behave differently than those with low affinity in terms of spending or order frequency?\n*   What are the most common `preferred_categories` among our customers?\n*   Does `style_preference` influence purchasing behavior or value?"
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1756900241.106556
+        },
+        {
+          "invocation_id": "e-594e4c87-3998-440e-80fe-90bf66998f5c",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "What is the age and gender distribution of our customers?"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": "CoICAcu98PADpPhXMWjdSrMRmuBVsm7zsGNpOgkbSAYF9bBtsyrPfQdAE31-QCM_6FOenDESXQqEffbJinS_fSpa-eH9XyQPmPbpgxQCkJBMF3y4z-r3LeCAXvQ68ieABHx61zHTKQoaj2cF1LJvtZ08NdoNYq6_Kmvw8tlRLOPyDUISWM0U257E4G2etyJCwhVGrI8dO75baJmLtKCxufufF36IDv6PZ6JAC_G-S9kwBEU3AQginJzfbIayiPSpRPkWMs3Jd8ST8D5O1bxtiKPF2dE8BDXIBnOIZpZJGXbXBPAv9hAVVJzgLhIcWtbXJeEO1usTTTQL85nO34EwzyNrTerf",
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "Here's the age distribution of your customers:\n\n*   **Minimum Age**: 14\n*   **Maximum Age**: 70\n*   **Average Age**: 27.78\n*   **Median Age**: 22"
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-c1f14ac2-a898-4285-8d2d-48a9115e6ad6",
+                "args": {
+                  "query": "SELECT gender, COUNT(*) AS count FROM `ml-developer-project-fe07.customer_data_retail.customers` GROUP BY gender ORDER BY count DESC",
+                  "project_id": "ml-developer-project-fe07"
+                },
+                "name": "execute_sql"
+              },
+              {
+                "id": "adk-a6be9dc4-6cd7-412b-b757-9c2ffc85456d",
+                "args": {
+                  "query": "SELECT MIN(age) AS min_age, MAX(age) AS max_age, AVG(age) AS average_age, PERCENTILE_DISC(age, 0.5) OVER() AS median_age FROM `ml-developer-project-fe07.customer_data_retail.customers` LIMIT 1",
+                  "project_id": "ml-developer-project-fe07"
+                },
+                "name": "execute_sql"
+              },
+              {
+                "id": "adk-4e1bcb92-3a29-4c0b-87b3-a5a11fde7f5e",
+                "args": {
+                  "query": "SELECT MIN(age) AS min_age FROM `ml-developer-project-fe07.customer_data_retail.customers`",
+                  "project_id": "ml-developer-project-fe07"
+                },
+                "name": "execute_sql"
+              },
+              {
+                "id": "adk-c17e50ce-1a8b-4fda-86a9-0fa774b351f3",
+                "args": {
+                  "query": "SELECT MAX(age) AS max_age FROM `ml-developer-project-fe07.customer_data_retail.customers`",
+                  "project_id": "ml-developer-project-fe07"
+                },
+                "name": "execute_sql"
+              },
+              {
+                "id": "adk-e2586792-b296-4574-ab3a-4e932edd6fee",
+                "args": {
+                  "project_id": "ml-developer-project-fe07",
+                  "query": "SELECT AVG(age) AS average_age FROM `ml-developer-project-fe07.customer_data_retail.customers`"
+                },
+                "name": "execute_sql"
+              },
+              {
+                "id": "adk-e4b4ffaa-3949-4588-a1a0-a6f2b8b88315",
+                "args": {
+                  "project_id": "ml-developer-project-fe07",
+                  "query": "SELECT PERCENTILE_DISC(age, 0.5) OVER() AS median_age FROM `ml-developer-project-fe07.customer_data_retail.customers` LIMIT 1"
+                },
+                "name": "execute_sql"
+              }
+            ],
+            "intermediate_responses": [
+              [
+                "adk_sample_bigquery_agent",
+                [
+                  {
+                    "video_metadata": null,
+                    "thought": null,
+                    "inline_data": null,
+                    "file_data": null,
+                    "thought_signature": "CvcHAcu98PDnNYcZQMxZSmx3as-LqAEcU4vKiaA9uR_ccFK4fK8gC_jTBUT69UIZ200NP_GtMWZwGzlVhtVj7nWvRGXAsy2H-ARALdrVMaDoy7QqC4WzWnZH5BoXSWJWjgK1shrilu0PntrlMLxIJbjN1FsLYVHlG662LsYzg4_qsserSlQQ-28zKbgM_NDH90RyEibCzU0KCgI8_62UU6bRCOjiqHNUsrHhmKXigPvL4Bm_RSYMbhpyfELm7gM8EYPeBYJUeafnj1-ISX32YCPRwbjxMn0LBnfFRsSlb4OYz98llH9T4rMNO-BMQp3z_9tMatpC7sB2m1QaDDvmhSgbE0d0uMD3XBmEzHaIwe47sIaRDAuIvb5E3TZ22nnrdBPn2ZaIYbJ3WOQVqAVOxIwViUaihYvv2-DDJyzx_WAuj8k4DCMVEVPU6nw-ELUMr_BLl8AS0WlaEqo3JH0iN3rcOVelBoH3dGuB7gcBWPFyiUeQQQhCKpr2uYQOf7q0D8dvNp--mUtTKFX_EMtsOuaSIO6-dxFAJLqCaLxIFbf5_HMkDIlhJUsd7s4_3cpi0L7lBtG4VyB8s0m7Bk8XXUoC5OZ4UGOnohZqlr4Tq6z9-RGNNk-LmIAWunePyv2oLDNQQikm2S_Id0CtVhLbs3ovmqORaJ-kvfyfgxnhRem68ha9LHY5bp9SUvV6y9Y-wZMbdHw_xhSCaZwg97jr9SviNfdZlEdaS7KKIBawYj1mV4oAHZw9xHXpTA6pemR1LdALnY0RCv5qQ-sb24nZhk4_uwiDSWDPGeL6blqGHFi2PE8ScE1ePcBMD_agnWFnQAxtt4zSq7cEsqTZ-9gWvxGZwy86rrVeVPXevLVT2vsBc7tDLSoUuNMNPSYd0QL5d2ph7sJ8t8hNzyxtw30bOGeM99Bs8yabd4hS99FY3_CkavKZZPlYekswWWWQR3aVV2kthJeNdbJCVQ_qYFXgXXSw6h7yHLmo8HEMfA3eUIRz7DIb3dMkkPl4_rtQp5fsInRnyqEE_1OHptvALlg0ezyuLlOdQG2KhiqG4s2ZxmsFmI6_Lu-8qm9s3wKrQXqLarmpDkZZzGzIBB6a-fHT82kf5GPePWXw8Apf4zYhnhZZbz3UxHT5I9g47FQdYDETvm3_4Doc3Zfe7dEI4WbblzqQiM5WFYp2Rb37PdMMW2iYtIW3J7kapvKqor0gRloqaRWfKMAEQDCY8i2miYFeU6lNbO-J3PvWXbSENoLmQsrdpbtT2YpCOkVAR_d_LYrw5BalMbPT5RTX2s5g6uJwv_4JTmCQyRsbLTY20hya4SjcVxoolFAgnr0U6P4Vr60q-8XLskTrKxGNTA==",
+                    "code_execution_result": null,
+                    "executable_code": null,
+                    "function_call": null,
+                    "function_response": null,
+                    "text": "Let's look at the gender distribution first.\n\n"
+                  }
+                ]
+              ],
+              [
+                "adk_sample_bigquery_agent",
+                [
+                  {
+                    "video_metadata": null,
+                    "thought": null,
+                    "inline_data": null,
+                    "file_data": null,
+                    "thought_signature": "Cr4CAcu98PCeyfrvVnQkxGmurmQmcpe60ohqOEHauBwHK9z8mgFrP405YovLIOr9T5_8aID3voDZtKgLZKpgr4XyHxCehnhovEpBti-84sIuESom-Hj4xWwVxNCFOXnqBDXnarjdJUqeKMj51Qa1Gpovq7z_sC8mDT7BMT9oIqhEhY9A7G0j7TjI4YGL_v1KsGyjEFeq1OOwL6E3ayHAHkrgXlln67e5GnCxwzkULesQg0ZaqgsxklpR_qNoq1ObDpDg_6vSsYpez4ahk0sfaH7-pGXKavAfsuerdC66AabyUQ3II_Tv6hXnPHF-ZB9q5GSamoou7rLZJn6uluCceOWRu8Qf3BwRO0tpxJW7uIz85QRPcES5prkLsQxmyTmsjuw1bZaSltiRrbzS-cOL6OWRGH0VZE-cbGhoP3zzZyqw",
+                    "code_execution_result": null,
+                    "executable_code": null,
+                    "function_call": null,
+                    "function_response": null,
+                    "text": "Here is the gender distribution of your customers:\n\n*   **Woman**: 3156\n*   **Man**: 1299\n*   **Prefer not to say**: 279\n*   **Non-binary**: 266\n\nNow, let's look at the age distribution. Since `age` is a numerical feature, I'll provide some summary statistics for its distribution.\n\n"
+                  }
+                ]
+              ],
+              [
+                "adk_sample_bigquery_agent",
+                [
+                  {
+                    "video_metadata": null,
+                    "thought": null,
+                    "inline_data": null,
+                    "file_data": null,
+                    "thought_signature": "CoUJAcu98PCIEzAeEutM7_FFBim2OIU_VM9hyqrQhZ1RH99JK9BSMTQGB_e4gD9gJIx5uGAoi2fRH9J3a0DTbnXRJLSZGJJ3xck_7EMbAO5nTFyD8kr4x1sflGytu5kx4Yz2Z1JSz6uUBPOjZfodbHPMXskszKVMUt31-ad9GdcmEVkPmGoU0f_d7ZB8QZq-2nxYPi0b1wsFJ_l_Le41PHKUExRtfHDK7nYwhcDwF_0g0kAqDhLG4embxzKtw4YYEXZAuY-EAZVd3mlUdMCEjfywYMF09NjepMHwIp_MhBd_olmjJDz1_wxPj0RQHSbh_DPyk2WdAOeBvh7GeKlP8UrnwcF9qVIcv42CHqrfMMUGuzFXhre97-5yDoPM86ut4Lmgjeks7B8Ryn77FR9ZL6HMO1ic0bK90MfAvz_hL6iAoPXzJKz118dRk7OTmnR4E4ulX0-ZlxD-L0iqoUi519YdBg3-6uzJrC78NthMjyIBUv65RNm-Ln3v9lKcTnBQRH1w2BfEmL0TxAthsNWAatbwhRcVhIGGJyrqPfArMBFmvPxavfoagCgaT9CKspGJFLm3Ar1lQ0TEjN7mKB3MFHKhAyU1WcUjJMfNpmw1l_3eYkdhTenOVK5HyJlA7Hm0E510wXImKMGw25tm1W9DsFmLGi7oJ0Zz93SlvZaJd30hmBj9tYwkCu6tzVEfvjCPxVmNm9fpu3hC8txyJpeFDlylBpujAGCTWBKZCD3EbonY8kUJ92O3Ajdvfz_xGGyPo1Nob_4Yod3Sc5osd2hxnf2ibLkIOINeWCJ0Zyt0pkxo0jzenPk4VbsBpliLoIRDBuLL2-qA7GT6U1lvwOF9GKslfvc20U4pRUC_FyliVOALaEoWh6f8gWGcb6PgFJHpd-kSMNCZNZaYWZ55snEBFBr8ymkmMrHtGlge7N99zqrE1OdRYjK0nOnCp77tHWdUtNWOlktMqP5nOrJ7xtJqRqmMCeQDnD-7auFY8CZ4rLlkN4ltPsMQP_x6fyUbg0NudV0Ht7wsZNMn5haILG7J7YerrJb8TIR34_GDdkIKq1oRU4iMyBOOLdi1nzyLz74qhpXeoTU3dmawdHytZl5rxGWcWuY_o-9vJdLqNVQq-TJ5H42Gu4Evdz1UEHLJdspuWZxc4J5WV9oijXUXWnhCpNP4fwqVvrEDULR86KmSPY2IjLz09eJmB_SXIlGTuyLJ9hhWun8FtBiMWD47MjJaTzZ9tqGC9MR9jNUh7fgiioetojq9vQ6WOFSyJgrZBFAqAwUA-CwTP3CEt6p9uzGV9zP_EMeZPK16GBt1cpqqjnGfnZ1BobnHym3EdpH0Hjl10vuz4P8djDwY-F9a-aaCODbYDZIrtzlvSIjG9veZR-EDsNLwnoWyqVSYlPRtZwcqHOwSjCLpdYhY1yCICmfqajK_ryswwp4M0ui5BZ-sJ-Mnoy4iDsKVZFlvYVktFyIDwNkx2pgGIhC-b8oyqQJOPyvM_jnbw_UWgx5A6tnQMxTvJGsFlJgK8un6fGuu3eqwfheF8NErOv0=",
+                    "code_execution_result": null,
+                    "executable_code": null,
+                    "function_call": null,
+                    "function_response": null,
+                    "text": "I apologize for the error. I'll get the age distribution for you. Let's start by finding the minimum age.\n\n"
+                  }
+                ]
+              ],
+              [
+                "adk_sample_bigquery_agent",
+                [
+                  {
+                    "video_metadata": null,
+                    "thought": null,
+                    "inline_data": null,
+                    "file_data": null,
+                    "thought_signature": "CqYCAcu98PBB1qlkLes0X6r6XAbjS7zlUQmUO1Mp3wfYpkjbB09xJKRkFZQrN0QXLYxrb0NzWaNWV06xxmdKpNiJe0bQNi4kg3G-jxDnSQoTsk2XidbzNxbCjmJjxewbRYgYg53srwcjVMhlmamiR1sPP3y0T9zcqoZHzllzu4ZruzhO_APLvkWbIzuMMYYbf2GVaiWQWNYmysgMuScb3mjO4xrMZcf_JdLhmIKwt5R9v7iZ-J-S3lriXJeAU2fqtDz_AQDtkNomj5cefRTK2tzlzmFie7ir6lg1j6Y8jL2pBk7vWEVKIaROGQfK1l5nH5lcLFzN1OMEKDkad7XZV6NNXdqQiFo1ML_nrGzGKSHNaKOYfTfJeYODqQAGNI2JqlIYbQ3Pw7Gv",
+                    "code_execution_result": null,
+                    "executable_code": null,
+                    "function_call": null,
+                    "function_response": null,
+                    "text": "The minimum age among your customers is **14**.\n\nNow, let's find out the maximum age.\n"
+                  }
+                ]
+              ],
+              [
+                "adk_sample_bigquery_agent",
+                [
+                  {
+                    "video_metadata": null,
+                    "thought": null,
+                    "inline_data": null,
+                    "file_data": null,
+                    "thought_signature": "CoECAcu98PBaSOMmFKb4K_qfSFrukNlZ5AissFViL5EFMrP3jBRBdDFdA7BCWemzPuBjHAXfJC3O6mcT8xcflCTo6VeW6IyAsWouIYMIB_wVXQSbM45f1EeI5JWh_ZHN8MQYgjQbEu9tlYFa7SFICJnNz2DzQTgVpMrdyKjJAn8UaekVp--Td803mCZPKFIlrh519coZm_4zKuG2Al7viQOw43tnKW_8TQpKugtVlV7okEMLXvJIAfNoZtInIloN8MunDnkky4BoBX4kvPeIfWaIWKChLx0GMzWzGItYnMWiMl_rBKEVg1k52I1CToPpHTB5kD1oOsD1DTuY6cHquZbhfys=",
+                    "code_execution_result": null,
+                    "executable_code": null,
+                    "function_call": null,
+                    "function_response": null,
+                    "text": "The maximum age among your customers is **70**.\n\nNext, let's find the average age.\n"
+                  }
+                ]
+              ],
+              [
+                "adk_sample_bigquery_agent",
+                [
+                  {
+                    "video_metadata": null,
+                    "thought": null,
+                    "inline_data": null,
+                    "file_data": null,
+                    "thought_signature": "CtABAcu98PCNfvnixVyodpGK8yt7tJkyY_Biyz1WJLzFvXBW_vy2dSe4YFSs5D4VW2xeiVki1tHRQb8xs0lFsrFJDKr0SdKBtdhF9dfAPABHrS-aruIR-9gcuDDBROvN2vRUovW_JQUVjNIAUy8au_N6AUVJjb95yOW7B7Y4ng08uSVg6EEjGfPFPi-kzGrzqkgfgj6LrEsOawGBb_UOI_s_Lo1fIQ8R1aRvBkU9Nns0vpgOlvy3YfK9KmEkUmK4Gx8e-6INP0pWT5Th9TyyHB7VHw==",
+                    "code_execution_result": null,
+                    "executable_code": null,
+                    "function_call": null,
+                    "function_response": null,
+                    "text": "The average age of your customers is approximately **27.78**.\n\nFinally, let's determine the median age.\n"
+                  }
+                ]
+              ]
+            ]
+          },
+          "creation_timestamp": 1756900259.772017
+        },
+        {
+          "invocation_id": "e-a41f37ad-3231-479e-b11b-774ad2883311",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "Which acquisition_source brings in the most valuable customers or the most frequent purchasers?"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": "CpMCAcu98PDA-wPI3xqs3Aou4D2O3S87DpPbGV6jg2AL5u3-BNs5LU2O_EbjYlZyoNP3MQveFlxPa35iDwbJixynELQWmvZlejoaTV3ClRqhLiVcCOElxq0ruVy9uYRt7xZ2CBntjVAS_4FxNNNuc9kmqSuQ10Nmt4eh3JHgVy3CCzfW1FEq3kfitSaozp2Mk8QUOyYK8E7guoUDV-2U0PcCAC14c_raM-nDv2hmvJu4fZ0ZgdOc3PaiNC4_GwT3fR4qWHj75s21Uz3dbH7-gNo7-J0LNhQ7r7mJuv00hHNmxpOMCvDfuh1an8nGYGOv7E5zlPAViDQxN3HjtD0XeN811BMOtUyjJrE_DaL5WcYpGudLJSM=",
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "The acquisition source that brings in the most frequent purchasers is also **Paid Social**, with a total of 12,739 orders.\n\nIn summary, **Paid Social** appears to be the most effective acquisition source, bringing in both the most valuable customers (highest total lifetime value) and the most frequent purchasers (highest total number of orders)."
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-45dce86a-e0fb-4737-9460-27363fd3c22a",
+                "args": {
+                  "query": "SELECT acquisition_source, SUM(total_spent_ltv) AS total_value FROM `ml-developer-project-fe07.customer_data_retail.customers` GROUP BY acquisition_source ORDER BY total_value DESC LIMIT 1",
+                  "project_id": "ml-developer-project-fe07"
+                },
+                "name": "execute_sql"
+              },
+              {
+                "id": "adk-18de4564-b0cb-435e-a61c-3b0e99478398",
+                "args": {
+                  "project_id": "ml-developer-project-fe07",
+                  "query": "SELECT acquisition_source, SUM(total_number_of_orders) AS total_orders FROM `ml-developer-project-fe07.customer_data_retail.customers` GROUP BY acquisition_source ORDER BY total_orders DESC LIMIT 1"
+                },
+                "name": "execute_sql"
+              }
+            ],
+            "intermediate_responses": [
+              [
+                "adk_sample_bigquery_agent",
+                [
+                  {
+                    "video_metadata": null,
+                    "thought": null,
+                    "inline_data": null,
+                    "file_data": null,
+                    "thought_signature": "Cp4OAcu98PAJsvc6QBQuli_It7I3HXzQuxvGk2eBMNb7spT07tALuoVROx5ZjgQnxmOt5upDsXKQTYb8VCcsoyJHwbRU61qPE_upL6Cqy3HeYhHQoYA5xBE5gNbejg9kkkm1NtxOiR8dDw3YQYfg1jcVyHgz94C6zZLHYNjC0jyA1tnBP35Tpc8eI-yhgAShi7cNKzX_U61J7Wt9Fq44GOd8xRIT3vwOi--A0yPpeT8HUt5ksGN8aA8lG_JS68DaSHUsnIkhibNrlFMgTj4kDWX9xG_lZxLP9Gx5q7EQ0iewH2C8HmKSCGKnW6WH0yyAIXxhsdOj62c0xltj0dwaNn1WccjeQtXFx_ZfpynmhDEppg9k0TljKPA6xg6lGDlYOpQbgL3pLq0s1nVBrqogoeolrvq2ZxsAaBjYyDt60C5vTCaiZR2CTpoqALOw_7OPBClSQ92-goLtNYQhC3B_9y2DcmF8f1ePE8etp-iiore5zg-tQRcr2Bkgj5y7iN2Hvqh7oi3rlYA9XUYXc8sGYrFNzKwbYM7oRi6N5cR9stk0NhpnAvGeEdHRW-1s_WZ6zIWEHrtrkE7sqWmHP2PHjRAOkUJFLkC6zDVAEbSFwtN-KV3c8-8WR0grKW-gqcObSY1N7-P9bfZ8zO9450NjpGIEkSGZYe9q_7ckH0VaqELfLo3xmEtAgi7Hdnx3Jd489e07vQd8bLa_XrSsJvPQpiyoh4mRFZMjeaB5wvyjYmgUiZndtvaRDzsJ2h1mTirxRs9-3pc4UVuY4n1am8T4N3dC47p_2PbwA3xf_Xhi5Ag4_VPVxcZgMMhB8699oceX-67fzCTTAUHnPtuX74sDHp6bfR6B2-ttnGYKfrf7BvzCKUk9rg-MRkieGbq_vtTFpum7fQv7j3MYr1ZVZNXrlOU7gGjXtJDOYMWcx4styUJSKXl8ppHyzEqHEMcsFqkfYxsIiYucLarI7Op8CiGefG10OeCWtjy3Cqlv5HD65epy7ISduSkHWhOkS5B_hE8I30hfjJQJcZ_6PzKZcijQePK6igAyq0Mcy-qx0y5G0NecJm9SaJXiHzkPE3hgAYesueUMfYgLW2fFyPbE9yxtm_bXbOziNA_3T8OG8F8uc-Fh7XagqoLxnFmXeQPAeFYWIf-GnNPWOW1D_T9hrWH3xhiw6WkG1ZMQimFCzHHI04AfEjJt5zEusdrjfT2hlPU67xeLFLRPHOAlEscXmsUzbiVvIUkS1zLe_d-dS4JiTY9q5Vu1HK04E8yxwJISZ-TI0yB7QPojILbbZOk6-WqXQTcAGG0xyGv7oupZFa7YoN3uOTXB2-B_kbo1hkojw-x40HOBcHFuNCsNlRg2VVMYLvlNgtoe0w1Nv5-YNBZDE17i4AVcEw3_AB3EFjkTZcrlTxwEin4AdZrTvCm4KGknsnjg-qJKwIaB-wQRdkVQr2qR-C12iFTYp6q-Y_VcqThB3nTCDqVrFycy2_1cHpx9UaeTqIcShc16ubvp0QLFJZt_ohgCTWXBeWuJRhrAVm8aEFb7CK0iJQY8w74q5zjPrH8g9gmhR_aqbvc3CVYUCEYOCugXluBhQsRrx-3bYteYTs8zj0rTy5H_wmG8baijHvUyJRw4Mr4iOt_jFNicMToXnJuYNDUsoQDs8BsoKXWx7r5CHi8T7cS1EYmiU7AL1cg2FhSmiCsDd4DTgY8EWlmWtdgWedWf9kRKa5rj16UzPAFFY634Y6xCodPGWdpZAkmeW6DdwuztuWho7c3AeUahwpwCGd0c7PQn3valdMxbboXMBB4BHDBy_8UvnR6gini435Xy1kQR3KohoPatKQwHBc329V40XXHn_LOfvZBIou8uq5EbtLblkG03xDPK26ArD_ENEHLDZEAJwludh5fm0Wx5-1k1vC4N2KK-o8cOWQuJ3uYgmsPfUjtJyn0zx8J0018gMZntUiQAIKmdE1xhk8QqUqQEhH5wCGBWiXCigdcpHwm2_6m9B2CKuW3AMa87iZnkMt0HZ-ejo589ljJnabz9iAwqnYt3d2ToZAC3qzn7sar5UHKAQNkLiXvzWnQ4zitfprpU8j3xc7EzvFOG14gX-5zp8yMLnqkQbeJAypTmoLMcsnbTpcktDLyqPS_QROUOwFuOqKKIRXsjzUSLldUteQFTzsqMYQeIkwKmC2zOMZsl6sv6snLqyisqiVdoPGEStpyb5hhPmCX3zr4T6gNnpiJlZjsclSJb9j88u8X2b2v4r9L3TWkD-QbZYq6gfyOVTiayfrtIuIjORTXyCbEv0GHYgtNGPDr6BNPCtMfuzh9AINvQDjO28rEDXcG0xgGE8h4rX_Z_BJONMm3xft7Ncoj6zhhZWjxpflThTIsd-05Vrvp_f7_LssN3KS-6XhRjXNjJ8r9GtWQP8jzUWbj0ApWTgQs9rlwLvpRadQ==",
+                    "code_execution_result": null,
+                    "executable_code": null,
+                    "function_call": null,
+                    "function_response": null,
+                    "text": "Let's find out which `acquisition_source` brings in the most valuable customers and the most frequent purchasers.\n\nFirst, for the most valuable customers (based on total spent):\n"
+                  }
+                ]
+              ],
+              [
+                "adk_sample_bigquery_agent",
+                [
+                  {
+                    "video_metadata": null,
+                    "thought": null,
+                    "inline_data": null,
+                    "file_data": null,
+                    "thought_signature": "CuMCAcu98PCQDVX4vAcjrO_rxQ_VLjTxg6uauQBqsf_SmBC-muYR2kOQ37PKKN1DjolOogW4k97ZRGIimxrA-jk-LNRgcDK86TmgawJYoaYNmHgAcceQe72aUjvQlNFF3-0dmzs-TL7W7DOJqrg7RH_QhplDX58iEWAreeQASBnymsaUHlNKfwOsC4dsQHLiQcvh5gh-ncXFTxYELk396UvZ10-t0CzWVBHVOFKGaTje3drjlYFAalodtvMiI6Lj-_e2yYX-8q8fbLX5gOA1_Nu9MrmmvtAPUPbhIWmyJO17JUkYs7MCjIep5pGcJPUeEdYg708RsSnzwtx1UrbugPgcz9bo7BcmW7OZ9qbNiwYuxLG7z943VK_fyRRx8fpoOVQonqYe8GwSlsu3avCFl2VmihUNJCtCSzYIkEN1bwU6TuFxWRXdojnOF0hkKzc1ClGwJFMEfvn9IL3oCthg9-iFiMK4qg==",
+                    "code_execution_result": null,
+                    "executable_code": null,
+                    "function_call": null,
+                    "function_response": null,
+                    "text": "\"Paid Social\" is the acquisition source that brings in the most valuable customers, with a total customer lifetime value of approximately **$831,693**.\n\nNow, let's determine which acquisition source brings in the most frequent purchasers.\n"
+                  }
+                ]
+              ]
+            ]
+          },
+          "creation_timestamp": 1756900307.100054
+        }
+      ],
+      "session_input": {
+        "app_name": "bq_toolset",
+        "user_id": "user",
+        "state": {}
+      },
+      "creation_timestamp": 1756900368.961993
+    }
+  ],
+  "creation_timestamp": 1756900363.9963362
+}

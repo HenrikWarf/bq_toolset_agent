@@ -1,0 +1,22 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Service Account Keys
+sa/
+
+*.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Misc
+.DS_Store
+adk_bq_toolset.png
